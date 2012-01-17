@@ -1,0 +1,39 @@
+<install>
+	
+	<version>1.0</version>
+	<author>Yukiya Okuda</author>
+	<url>http://alumican.net/</url>
+    
+	<requires>
+		<addon>ofxXtionNI</addon>
+	</requires>
+	
+	<add>
+		<src>
+			<folder name="addons/ofxXtionNI/src">
+				<file>../../../addons/ofxXtionNI/src/XtionNI.h</file>
+				<file>../../../addons/ofxXtionNI/src/data/Gesture.h</file>
+				<file>../../../addons/ofxXtionNI/src/data/TrackedLimb.h</file>
+				<file>../../../addons/ofxXtionNI/src/data/TrackedUser.h</file>
+				<file>../../../addons/ofxXtionNI/src/manager/AudioManager.h</file>
+				<file>../../../addons/ofxXtionNI/src/manager/BaseManager.h</file>
+				<file>../../../addons/ofxXtionNI/src/manager/DepthManager.h</file>
+				<file>../../../addons/ofxXtionNI/src/manager/GestureManager.h</file>
+				<file>../../../addons/ofxXtionNI/src/manager/HandsManager.h</file>
+				<file>../../../addons/ofxXtionNI/src/manager/ImageManager.h</file>
+				<file>../../../addons/ofxXtionNI/src/manager/IRManager.h</file>
+				<file>../../../addons/ofxXtionNI/src/manager/UserManager.h</file>
+				<file>../../../addons/ofxXtionNI/src/util/Util.h</file>
+				<file>../../../addons/ofxXtionNI/src/variable/Constant.h</file>
+			</folder>
+		</src>
+		
+		<include>
+			<path>../../../addons/ofxXtionNI/src</path>
+		</include>
+		
+		<link>
+		</link>
+	</add>
+	
+</install>

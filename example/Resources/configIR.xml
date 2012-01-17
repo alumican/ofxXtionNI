@@ -1,0 +1,20 @@
+<OpenNI>
+	
+	<Licenses>
+	</Licenses>
+	
+	<Log writeToConsole="true" writeToFile="false">
+		<LogLevel value="0"/>
+		<Masks>
+			<Mask name="ALL" on="false"/>
+		</Masks>
+		<Dumps>
+		</Dumps>
+	</Log>
+	
+	<ProductionNodes>
+		<GlobalMirror on="true"/>
+		<Node type="IR" />
+	</ProductionNodes>
+	
+</OpenNI>
