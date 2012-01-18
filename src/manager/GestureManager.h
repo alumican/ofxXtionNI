@@ -1,6 +1,6 @@
 /*
 Copyright (c) 2012 Yukiya Okuda
-See LICENSE.txt for full license information.
+See LICENSE for full license information.
 */
 
 #pragma once
